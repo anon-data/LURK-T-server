@@ -13,7 +13,7 @@ use tokio_openssl::SslStream;
 use clap::{AppSettings, Clap};
 
 #[derive(Clap)]
-#[clap(version = "1.0", author = "")]
+#[clap(version = "1.0", author = "anon-data@anon.com")]
 #[clap(setting = AppSettings::ColoredHelp)]
 struct Opts {
     #[clap(short, long, default_value = "ec_key.pem")]
